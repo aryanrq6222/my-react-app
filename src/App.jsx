@@ -1,9 +1,10 @@
-import CountDown from "./components/Counter";
+import UserList from "./UserList";
 
 function App() {
   return (
     <div>
-      <CountDown />
+      <h1>My App</h1>
+      <UserList />
     </div>
   );
 }

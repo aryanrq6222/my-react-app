@@ -1,9 +1,8 @@
-import UserList from "./UserList";
+import UserList from "./components/task3/userlist";
 
 function App() {
   return (
     <div>
-      <h1>My App</h1>
       <UserList />
     </div>
   );

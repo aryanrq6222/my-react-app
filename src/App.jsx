@@ -1,7 +1,12 @@
-import MultiStepForm from "./MultiStepForm";
+import Users from "./components/Users";
 
 function App() {
-  return <MultiStepForm />;
+  return (
+    <div>
+      <h1>Custom useFetch Hook Example</h1>
+      <Users />
+    </div>
+  );
 }
 
 export default App;
